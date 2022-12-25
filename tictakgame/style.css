@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 300px;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+}
+.background{
+    background-color: black;
+    height: 100%;
+    color: white;
+    padding-top: 5px;
+}
+.name{
+    padding-top: 5px;
+    text-align: center;
+    font-size: large;
+    margin-top: 2%;
+}
+.display{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.tile{
+    border: 1px solid white;
+    color: white;
+    min-height: 100px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: large;
+    cursor: pointer;
+}
+.playerX{
+    color: crimson;
+}
+.playerY{
+    color: darkturquoise;
+}
+.hide{
+    display: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1em;
+}
+.buttons button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #FF3860;
+}
